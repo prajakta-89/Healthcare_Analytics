@@ -317,7 +317,7 @@ Provides financial and medication insights.
 - Revenue forecasting.
 
 
-## 👩‍💻 Author
+##  Author
 
 **Prajakta Bhondave**
 
