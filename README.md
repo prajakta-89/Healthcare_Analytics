@@ -87,7 +87,6 @@ Stores patient demographic information.
           - city
           - blood_group
 
----
 
 ### 👨‍⚕️ Doctors
 Stores doctor information.
@@ -107,7 +106,6 @@ Stores doctor information.
           - joining_date
           - consultation_fee
 
----
 
 ### 🏥 Departments
 Stores department information.
@@ -125,7 +123,6 @@ Stores department information.
           - shift_timing
           - head_doctor_id
 
----
 
 ### 📅 Appointments
 Stores appointment records.
@@ -145,7 +142,6 @@ Stores appointment records.
           - follow_up_date
           - created_at
 
----
 
 ### 💳 Bills
 Stores billing information.
@@ -166,7 +162,6 @@ Stores billing information.
           - due_date
           - insurance_claim
 
----
 
 ### 💊 Medications
 Stores medication details.
