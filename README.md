@@ -45,7 +45,7 @@ This project addresses these challenges by building an interactive Healthcare An
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```
 Healthcare-Analytics/
@@ -76,10 +76,7 @@ Healthcare-Analytics/
 ```
 
 
-# 📂 Dataset
-
-The project consists of six relational tables:
-
+## 📂 Dataset
 ### 👤 Patients
 Stores patient demographic information.
 
@@ -99,112 +96,106 @@ Stores patient demographic information.
 ---
 
 ### 👨‍⚕️ Doctors
-
 Stores doctor information.
 
 **Columns**
 
-- doctor_id
-- first_name
-- last_name
-- gender
-- specialization
-- department_id
-- city
-- experience_years
-- phone
-- email
-- joining_date
-- consultation_fee
+          - doctor_id
+          - first_name
+          - last_name
+          - gender
+          - specialization
+          - department_id
+          - city
+          - experience_years
+          - phone
+          - email
+          - joining_date
+          - consultation_fee
 
 ---
 
 ### 🏥 Departments
-
 Stores department information.
 
 **Columns**
 
-- department_id
-- department_name
-- city
-- location_floor
-- phone_extension
-- total_staff
-- budget_allocation
-- established_year
-- shift_timing
-- head_doctor_id
+          - department_id
+          - department_name
+          - city
+          - location_floor
+          - phone_extension
+          - total_staff
+          - budget_allocation
+          - established_year
+          - shift_timing
+          - head_doctor_id
 
 ---
 
 ### 📅 Appointments
-
 Stores appointment records.
 
 **Columns**
 
-- appointment_id
-- patient_id
-- doctor_id
-- department_id
-- appointment_date
-- appointment_time
-- purpose
-- diagnosis
-- status
-- follow_up_required
-- follow_up_date
-- created_at
+          - appointment_id
+          - patient_id
+          - doctor_id
+          - department_id
+          - appointment_date
+          - appointment_time
+          - purpose
+          - diagnosis
+          - status
+          - follow_up_required
+          - follow_up_date
+          - created_at
 
 ---
 
 ### 💳 Bills
-
 Stores billing information.
 
 **Columns**
 
-- bill_id
-- appointment_id
-- patient_id
-- doctor_id
-- total_amount
-- discount
-- insurance_amount
-- net_amount
-- payment_mode
-- payment_status
-- billing_date
-- due_date
-- insurance_claim
+          - bill_id
+          - appointment_id
+          - patient_id
+          - doctor_id
+          - total_amount
+          - discount
+          - insurance_amount
+          - net_amount
+          - payment_mode
+          - payment_status
+          - billing_date
+          - due_date
+          - insurance_claim
 
 ---
 
 ### 💊 Medications
-
 Stores medication details.
 
 **Columns**
 
-- medication_id
-- appointment_id
-- patient_id
-- doctor_id
-- generic_name
-- brand_name
-- dosage
-- frequency
-- start_date
-- end_date
-- notes
-- status
-- prescribed_date
+          - medication_id
+          - appointment_id
+          - patient_id
+          - doctor_id
+          - generic_name
+          - brand_name
+          - dosage
+          - frequency
+          - start_date
+          - end_date
+          - notes
+          - status
+          - prescribed_date
 
 ---
 
-# 🧹 Data Cleaning
-
+##  Data Cleaning
 Performed comprehensive data quality checks using SQL:
 
 - Removed duplicate records
@@ -220,8 +211,7 @@ Performed comprehensive data quality checks using SQL:
 
 ---
 
-# 📊 Exploratory Data Analysis (EDA)
-
+## 📊 Exploratory Data Analysis (EDA)
 Performed SQL analysis to answer key business questions.
 
 ### Patient Analysis
@@ -263,8 +253,7 @@ Performed SQL analysis to answer key business questions.
 
 ---
 
-# 📈 Key Performance Indicators (KPIs)
-
+## 📈 Key Performance Indicators (KPIs)
 The dashboards monitor the following business KPIs:
 
 - 👤 Total Patients
@@ -278,10 +267,8 @@ The dashboards monitor the following business KPIs:
 
 ---
 
-# 📊 Dashboard Overview
-
+## 📊 Dashboard Overview
 ## 🏥 Dashboard 1 – Hospital Overview
-
 Provides a high-level overview of hospital performance.
 
 ### Visuals
@@ -296,7 +283,6 @@ Provides a high-level overview of hospital performance.
 ---
 
 ## 👨‍⚕️ Dashboard 2 – Patient & Doctor Analytics
-
 Provides patient demographics and doctor performance analysis.
 
 ### Visuals
@@ -312,7 +298,6 @@ Provides patient demographics and doctor performance analysis.
 ---
 
 ## 💰 Dashboard 3 – Financial & Medication Analytics
-
 Provides financial and medication insights.
 
 ### Visuals
@@ -328,7 +313,7 @@ Provides financial and medication insights.
 
 ---
 
-# 📌 Business Insights
+## 📌 Business Insights
 
 - Identified departments generating the highest revenue.
 - Analyzed patient demographics across cities.
@@ -340,7 +325,7 @@ Provides financial and medication insights.
 
 ---
 
-# 🔮 Future Enhancements
+##  Future Enhancements
 
 - Patient readmission prediction using Machine Learning.
 - Real-time dashboard with scheduled refresh.
