@@ -2,7 +2,7 @@
 The Healthcare Analytics Dashboard is an end-to-end data analytics project developed using MySQL and Power BI to analyze hospital operations, patient care, doctor performance, appointments, billing, and medication data.
 
 ---
-## 📖 Project Overview
+##  Project Overview
 
 The **Healthcare Analytics Dashboard** is an end-to-end Business Intelligence project designed to analyze hospital operations, patient care, doctor performance, appointments, billing, and medication data using **MySQL** and **Power BI**.
 
@@ -20,7 +20,7 @@ This project addresses these challenges by building an interactive Healthcare An
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Analyze patient demographics and healthcare trends.
 - Monitor doctor performance and appointment activities.
@@ -33,7 +33,7 @@ This project addresses these challenges by building an interactive Healthcare An
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology | Purpose |
 |------------|----------|
@@ -76,7 +76,7 @@ Healthcare-Analytics/
 ```
 
 
-## 📂 Dataset
+##  Dataset
 ### 👤 Patients
 Stores patient demographic information.
 
@@ -253,7 +253,7 @@ Performed SQL analysis to answer key business questions.
 
 ---
 
-## 📈 Key Performance Indicators (KPIs)
+##  Key Performance Indicators (KPIs)
 The dashboards monitor the following business KPIs:
 
 - 👤 Total Patients
@@ -267,8 +267,8 @@ The dashboards monitor the following business KPIs:
 
 ---
 
-## 📊 Dashboard Overview
-## 🏥 Dashboard 1 – Hospital Overview
+##  Dashboard Overview
+## 🏥 Hospital Overview
 Provides a high-level overview of hospital performance.
 
 ### Visuals
@@ -282,7 +282,7 @@ Provides a high-level overview of hospital performance.
 
 ---
 
-## 👨‍⚕️ Dashboard 2 – Patient & Doctor Analytics
+## 👨‍⚕️ Patient & Doctor Analytics
 Provides patient demographics and doctor performance analysis.
 
 ### Visuals
@@ -297,7 +297,7 @@ Provides patient demographics and doctor performance analysis.
 
 ---
 
-## 💰 Dashboard 3 – Financial & Medication Analytics
+## 💰 Financial & Medication Analytics
 Provides financial and medication insights.
 
 ### Visuals
@@ -313,7 +313,7 @@ Provides financial and medication insights.
 
 ---
 
-## 📌 Business Insights
+##  Business Insights
 
 - Identified departments generating the highest revenue.
 - Analyzed patient demographics across cities.
@@ -343,5 +343,3 @@ Provides financial and medication insights.
 **Aspiring Data Analyst | SQL | Power BI | Python | Excel | Data Visualization**
 - 💼 LinkedIn: https://www.linkedin.com/in/prajakta-bhondave-773b092a6
 - 💻 GitHub: https://github.com/prajakta-89
-Aspiring Data Analyst | SQL | Power BI | Python | Excel | Data Visualization
-🔗 LinkedIn: 
