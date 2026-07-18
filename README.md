@@ -306,6 +306,178 @@ Provides financial and medication insights.
 - Identified frequently prescribed medications.
 - Enabled interactive filtering for management reporting.
 
+## KPI 1: Total Patients
+### Business Question
+How many patients are registered in the hospital?
+
+```sql
+SELECT COUNT(*) AS Total_Patients
+FROM patients;
+```
+
+### Output
+
+*(Insert Screenshot: Total_Patients.png)*
+
+### Business Insight
+
+- Displays the total number of registered patients.
+- Helps hospital management understand patient volume.
+- Useful for monitoring hospital growth and planning healthcare resources.
+
+
+## KPI 2: Total Doctors
+### Business Question
+How many doctors are currently working in the hospital?
+
+```sql
+SELECT COUNT(*) AS Total_Doctors
+FROM doctors;
+```
+
+### Output
+
+*(Insert Screenshot: Total_Doctors.png)*
+
+### Business Insight
+
+- Shows the total number of doctors available.
+- Helps evaluate doctor availability across departments.
+- Supports workforce planning and recruitment decisions.
+
+
+## KPI 3: Total Appointments
+### Business Question
+How many appointments have been scheduled?
+
+
+```sql
+SELECT COUNT(*) AS Total_Appointments
+FROM appointments;
+```
+
+### Output
+
+*(Insert Screenshot: Total_Appointments.png)*
+
+### Business Insight
+
+- Represents the total number of patient appointments.
+- Helps measure hospital workload.
+- Useful for analyzing patient demand and operational capacity.
+
+
+## KPI 4: Appointment Completion Rate
+### Business Question
+What percentage of appointments were successfully completed?
+
+
+```sql
+SELECT
+ROUND(
+COUNT(CASE WHEN status='Completed' THEN 1 END)
+*100.0/COUNT(*),2
+) AS Appointment_Completion_Rate
+FROM appointments;
+```
+
+### Output
+
+*(Insert Screenshot: Appointment_Completion_Rate.png)*
+
+### Business Insight
+
+- Measures hospital operational efficiency.
+- Higher completion rates indicate better appointment management.
+- Helps identify issues such as cancellations or no-shows.
+
+
+## KPI 5: Total Revenue
+### Business Question
+How much total revenue has the hospital generated?
+
+```sql
+SELECT
+ROUND(SUM(net_amount),2) AS Total_Revenue
+FROM bills;
+```
+
+### Output
+
+*(Insert Screenshot: Total_Revenue.png)*
+
+### Business Insight
+
+- Displays total hospital revenue after discounts and insurance adjustments.
+- Helps monitor financial performance.
+- Supports revenue planning and budgeting.
+
+
+## KPI 6: Average Bill Amount
+### Business Question
+What is the average billing amount per patient visit?
+
+```sql
+SELECT
+ROUND(AVG(net_amount),2) AS Average_Bill_Amount
+FROM bills;
+```
+
+### Output
+
+*(Insert Screenshot: Average_Bill_Amount.png)*
+
+### Business Insight
+
+- Represents the average revenue earned per patient visit.
+- Helps analyze billing trends.
+- Useful for evaluating pricing strategies and service utilization.
+
+
+## KPI 7: Follow-up Appointments
+### Business Question
+How many appointments require follow-up consultations?
+
+```sql
+SELECT
+COUNT(*) AS Follow_Up_Appointments
+FROM appointments
+WHERE follow_up_required = 1;
+```
+
+### Output
+
+*(Insert Screenshot: Follow_Up_Appointments.png)*
+
+### Business Insight
+
+- Indicates patients requiring additional medical attention.
+- Helps hospitals monitor continuity of care.
+- Supports effective follow-up scheduling and patient management.
+
+---
+
+## KPI 8: Active Medications
+### Business Question
+How many active medication prescriptions are currently in progress?
+
+
+```sql
+SELECT
+COUNT(*) AS Active_Medications
+FROM medications
+WHERE status = 'Active';
+```
+
+### Output
+
+*(Insert Screenshot: Active_Medications.png)*
+
+### Business Insight
+
+- Displays the number of active medication prescriptions.
+- Helps monitor ongoing treatments.
+- Supports pharmacy inventory management and patient care planning.
 
 ##  Future Enhancements
 
