@@ -1,7 +1,6 @@
 # 🏥 Healthcare_Analytics
 The Healthcare Analytics Dashboard is an end-to-end data analytics project developed using MySQL and Power BI to analyze hospital operations, patient care, doctor performance, appointments, billing, and medication data.
 
----
 ##  Project Overview
 
 The **Healthcare Analytics Dashboard** is an end-to-end Business Intelligence project designed to analyze hospital operations, patient care, doctor performance, appointments, billing, and medication data using **MySQL** and **Power BI**.
@@ -10,15 +9,12 @@ This project transforms raw healthcare data into meaningful business insights th
 
 The project follows a complete analytics lifecycle, including data cleaning, exploratory data analysis (EDA), KPI development, SQL business analysis, Power BI data modeling, DAX measures, and dashboard visualization.
 
----
-
 ## 🎯 Business Problem
 
 Hospitals generate large volumes of data through patient registrations, doctor consultations, appointments, billing transactions, and medication prescriptions. However, without centralized reporting, it becomes difficult to monitor operational performance, financial health, and patient care metrics.
 
 This project addresses these challenges by building an interactive Healthcare Analytics Dashboard that provides actionable insights across hospital operations, financial performance, and clinical activities.
 
----
 
 ##  Project Objectives
 
@@ -31,7 +27,6 @@ This project addresses these challenges by building an interactive Healthcare An
 - Develop executive-level dashboards for decision-making.
 - Support data-driven healthcare management.
 
----
 
 ##  Technologies Used
 
@@ -43,7 +38,6 @@ This project addresses these challenges by building an interactive Healthcare An
 | DAX | KPI Calculations |
 | Microsoft Excel | Data Validation |
 
----
 
 ## 📁 Project Structure
 
@@ -192,8 +186,7 @@ Stores medication details.
           - notes
           - status
           - prescribed_date
-
----
+          
 
 ##  Data Cleaning
 Performed comprehensive data quality checks using SQL:
@@ -209,7 +202,6 @@ Performed comprehensive data quality checks using SQL:
 - Validated medication status
 - Performed date consistency checks
 
----
 
 ## 📊 Exploratory Data Analysis (EDA)
 Performed SQL analysis to answer key business questions.
@@ -265,7 +257,6 @@ The dashboards monitor the following business KPIs:
 - 🔄 Follow-up Appointments
 - 💊 Active Medications
 
----
 
 ##  Dashboard Overview
 ## 🏥 Hospital Overview
@@ -280,7 +271,6 @@ Provides a high-level overview of hospital performance.
 - Patients by City
 - Revenue by Payment Mode
 
----
 
 ## 👨‍⚕️ Patient & Doctor Analytics
 Provides patient demographics and doctor performance analysis.
@@ -295,9 +285,8 @@ Provides patient demographics and doctor performance analysis.
 - Doctor Specialization
 - Average Experience by Specialization
 
----
 
-## 💰 Financial & Medication Analytics
+##  Financial & Medication Analytics
 Provides financial and medication insights.
 
 ### Visuals
@@ -311,7 +300,6 @@ Provides financial and medication insights.
 - Top Diagnoses
 - Revenue by Payment Mode
 
----
 
 ##  Business Insights
 
@@ -323,7 +311,6 @@ Provides financial and medication insights.
 - Identified frequently prescribed medications.
 - Enabled interactive filtering for management reporting.
 
----
 
 ##  Future Enhancements
 
@@ -334,7 +321,6 @@ Provides financial and medication insights.
 - Hospital resource utilization dashboard.
 - Revenue forecasting.
 
----
 
 ## 👩‍💻 Author
 
