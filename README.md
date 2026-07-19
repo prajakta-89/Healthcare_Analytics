@@ -48,11 +48,11 @@ Healthcare-Analytics/
 │   └── healthcare_dataset.sql
 │
 ├── SQL/
-│   ├── 01_Data_Cleaning.sql
-│   ├── 02_EDA.sql
-│   ├── 03_KPI_Queries.sql
-│   ├── 04_Dashboard_Queries.sql
-│   └── 05_Advanced_SQL.sql
+│   ├── Healthcare_Data_Cleaning.sql
+│   ├── Healthcare_EDA.sql
+│   ├── Healthcare_KPI_Queries.sql
+│   ├── Healthcare_Dashboard_Queries.sql
+│   └── Healthcare_Advanced_SQL.sql
 │
 ├── PowerBI/
 │   └── Healthcare_Analytics_Dashboard.pbix
