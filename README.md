@@ -336,7 +336,7 @@ FROM doctors;
 
 ### Output
 
-*(Insert Screenshot: Total_Doctors.png)*
+![Total_Patients](Healthcare_Analytics_Sql_Results/Total_Doctors.png)
 
 ### Business Insight
 
@@ -357,7 +357,7 @@ FROM appointments;
 
 ### Output
 
-*(Insert Screenshot: Total_Appointments.png)*
+![Total_Patients](Healthcare_Analytics_Sql_Results/Total_Appointments.png)
 
 ### Business Insight
 
@@ -382,7 +382,7 @@ FROM appointments;
 
 ### Output
 
-*(Insert Screenshot: Appointment_Completion_Rate.png)*
+![Total_Patients](Healthcare_Analytics_Sql_Results/Appointments_Completion_Rate.png)
 
 ### Business Insight
 
@@ -403,7 +403,7 @@ FROM bills;
 
 ### Output
 
-*(Insert Screenshot: Total_Revenue.png)*
+![Total_Patients](Healthcare_Analytics_Sql_Results/Total_Revenue.png)
 
 ### Business Insight
 
@@ -424,8 +424,7 @@ FROM bills;
 
 ### Output
 
-*(Insert Screenshot: Average_Bill_Amount.png)*
-
+![Total_Patients](Healthcare_Analytics_Sql_Results/Average_Bill_Amount.png)
 ### Business Insight
 
 - Represents the average revenue earned per patient visit.
@@ -446,7 +445,7 @@ WHERE follow_up_required = 1;
 
 ### Output
 
-*(Insert Screenshot: Follow_Up_Appointments.png)*
+![Total_Patients](Healthcare_Analytics_Sql_Results/Follow_Up_Appointments.png)
 
 ### Business Insight
 
@@ -470,8 +469,7 @@ WHERE status = 'Active';
 
 ### Output
 
-*(Insert Screenshot: Active_Medications.png)*
-
+![Total_Patients](Healthcare_Analytics_Sql_Results/Active_Medications.png)
 ### Business Insight
 
 - Displays the number of active medication prescriptions.
