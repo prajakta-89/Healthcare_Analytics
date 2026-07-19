@@ -317,8 +317,7 @@ FROM patients;
 
 ### Output
 
-*(Insert Screenshot: Total_Patients.png)*
-
+![Total_Patients](Healthcare_Analytics_Sql_Results/Total_patients.png)
 ### Business Insight
 
 - Displays the total number of registered patients.
