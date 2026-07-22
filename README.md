@@ -121,7 +121,7 @@ Healthcare-Analytics/
 
 
 ##  Dataset
-### 👤 Patients
+###  Patients
 Stores patient demographic information.
 
 **Columns**
@@ -138,7 +138,7 @@ Stores patient demographic information.
           - blood_group
 
 
-### 👨‍⚕️ Doctors
+###  Doctors
 Stores doctor information.
 
 **Columns**
@@ -157,7 +157,7 @@ Stores doctor information.
           - consultation_fee
 
 
-### 🏥 Departments
+###  Departments
 Stores department information.
 
 **Columns**
@@ -174,7 +174,7 @@ Stores department information.
           - head_doctor_id
 
 
-### 📅 Appointments
+###  Appointments
 Stores appointment records.
 
 **Columns**
@@ -193,7 +193,7 @@ Stores appointment records.
           - created_at
 
 
-### 💳 Bills
+###  Bills
 Stores billing information.
 
 **Columns**
@@ -213,7 +213,7 @@ Stores billing information.
           - insurance_claim
 
 
-### 💊 Medications
+###  Medications
 Stores medication details.
 
 **Columns**
