@@ -15,6 +15,60 @@ Hospitals generate large volumes of data through patient registrations, doctor c
 
 This project addresses these challenges by building an interactive Healthcare Analytics Dashboard that provides actionable insights across hospital operations, financial performance, and clinical activities.
 
+##  Dashboard Overview
+## 🏥 Hospital Overview
+Provides a high-level overview of hospital performance.
+
+### Visuals
+
+- Monthly Revenue Trend
+- Appointment Status
+- Revenue by Department
+- Department-wise Appointments
+- Patients by City
+- Revenue by Payment Mode
+
+<p>
+  <img src="Dashboard_Screenshots/Hospital_Overview.png" width="700"/>
+</p>
+
+
+## 👨‍⚕️ Patient & Doctor Analytics
+Provides patient demographics and doctor performance analysis.
+
+### Visuals
+
+- Gender Distribution
+- Age Group Distribution
+- Blood Group Distribution
+- Top Doctors by Appointments
+- Top Doctors by Revenue
+- Doctor Specialization
+- Average Experience by Specialization
+
+<p>
+  <img src="Dashboard_Screenshots/Patient_and_Doctor_Analytics.png" width="700"/>
+</p>
+
+
+##  Financial & Medication Analytics
+Provides financial and medication insights.
+
+### Visuals
+
+- Monthly Revenue
+- Payment Status
+- Insurance Claims
+- Revenue by Doctor
+- Top Prescribed Medicines
+- Medication Status
+- Top Diagnoses
+- Revenue by Payment Mode
+
+<p>
+  <img src="Dashboard_Screenshots/Financial_and_Medication_Analytics.png" width="700"/>
+</p>
+
 
 ##  Project Objectives
 
@@ -252,52 +306,6 @@ The dashboards monitor the following business KPIs:
 - 🔄 Follow-up Appointments
 - 💊 Active Medications
 
-
-##  Dashboard Overview
-## 🏥 Hospital Overview
-Provides a high-level overview of hospital performance.
-
-### Visuals
-
-- Monthly Revenue Trend
-- Appointment Status
-- Revenue by Department
-- Department-wise Appointments
-- Patients by City
-- Revenue by Payment Mode
-
-<p>
-  <img src="Dashboard_Screenshots/Hospital_Overview.png" width="700"/>
-</p>
-
-
-## 👨‍⚕️ Patient & Doctor Analytics
-Provides patient demographics and doctor performance analysis.
-
-### Visuals
-
-- Gender Distribution
-- Age Group Distribution
-- Blood Group Distribution
-- Top Doctors by Appointments
-- Top Doctors by Revenue
-- Doctor Specialization
-- Average Experience by Specialization
-
-
-##  Financial & Medication Analytics
-Provides financial and medication insights.
-
-### Visuals
-
-- Monthly Revenue
-- Payment Status
-- Insurance Claims
-- Revenue by Doctor
-- Top Prescribed Medicines
-- Medication Status
-- Top Diagnoses
-- Revenue by Payment Mode
 
 
 ##  Business Insights
