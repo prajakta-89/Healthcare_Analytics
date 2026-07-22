@@ -15,8 +15,8 @@ Hospitals generate large volumes of data through patient registrations, doctor c
 
 This project addresses these challenges by building an interactive Healthcare Analytics Dashboard that provides actionable insights across hospital operations, financial performance, and clinical activities.
 
-##  Dashboard Overview
-## 🏥 Hospital Overview
+## 🏥 Dashboard Overview
+## Hospital Overview
 Provides a high-level overview of hospital performance.
 
 ### Visuals
@@ -33,7 +33,7 @@ Provides a high-level overview of hospital performance.
 </p>
 
 
-## 👨‍⚕️ Patient & Doctor Analytics
+## Patient & Doctor Analytics
 Provides patient demographics and doctor performance analysis.
 
 ### Visuals
