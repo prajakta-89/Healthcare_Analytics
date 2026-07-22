@@ -9,7 +9,7 @@ This project transforms raw healthcare data into meaningful business insights th
 
 The project follows a complete analytics lifecycle, including data cleaning, exploratory data analysis (EDA), KPI development, SQL business analysis, Power BI data modeling, DAX measures, and dashboard visualization.
 
-## 🎯 Business Problem
+## Business Problem
 
 Hospitals generate large volumes of data through patient registrations, doctor consultations, appointments, billing transactions, and medication prescriptions. However, without centralized reporting, it becomes difficult to monitor operational performance, financial health, and patient care metrics.
 
