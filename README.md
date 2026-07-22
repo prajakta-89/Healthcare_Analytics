@@ -1,4 +1,4 @@
-# 🏥 Healthcare_Analytics
+# 🏥Healthcare_Analytics
 The Healthcare Analytics Dashboard is an end-to-end data analytics project developed using MySQL and Power BI to analyze hospital operations, patient care, doctor performance, appointments, billing, and medication data using **MySQL** and **Power BI**.
 
 This project transforms raw healthcare data into meaningful business insights through SQL-based data analysis and interactive dashboards. It enables hospital administrators to monitor operational efficiency, financial performance, patient demographics, and clinical activities for data-driven decision-making.
@@ -8,7 +8,7 @@ Hospitals generate large volumes of data through patient registrations, doctor c
 
 This project addresses these challenges by building an interactive Healthcare Analytics Dashboard that provides actionable insights across hospital operations, financial performance, and clinical activities.
 
-## 🏥 Dashboard Overview
+## Dashboard Creation
 ## Hospital Overview
 Provides a high-level overview of hospital performance.
 
@@ -292,14 +292,14 @@ Performed SQL analysis to answer key business questions.
 ##  Key Performance Indicators (KPIs)
 The dashboards monitor the following business KPIs:
 
-- 👤 Total Patients
-- 👨‍⚕️ Total Doctors
-- 📅 Total Appointments
-- ✅ Appointment Completion Rate
-- 💰 Total Revenue
-- 💳 Average Bill Amount
-- 🔄 Follow-up Appointments
-- 💊 Active Medications
+-  Total Patients
+-  Total Doctors
+-  Total Appointments
+-  Appointment Completion Rate
+-  Total Revenue
+-  Average Bill Amount
+-  Follow-up Appointments
+-  Active Medications
 
 
 
@@ -493,9 +493,8 @@ WHERE status = 'Active';
 
 
 ##  Author
-
 **Prajakta Bhondave**
 
 **Aspiring Data Analyst | SQL | Power BI | Python | Excel | Data Visualization**
-- 💼 LinkedIn: https://www.linkedin.com/in/prajakta-bhondave-773b092a6
-- 💻 GitHub: https://github.com/prajakta-89
+- LinkedIn: https://www.linkedin.com/in/prajakta-bhondave-773b092a6
+- GitHub: https://github.com/prajakta-89
