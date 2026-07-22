@@ -1,16 +1,9 @@
 # 🏥 Healthcare_Analytics
-The Healthcare Analytics Dashboard is an end-to-end data analytics project developed using MySQL and Power BI to analyze hospital operations, patient care, doctor performance, appointments, billing, and medication data.
-
-##  Project Overview
-
-The **Healthcare Analytics Dashboard** is an end-to-end Business Intelligence project designed to analyze hospital operations, patient care, doctor performance, appointments, billing, and medication data using **MySQL** and **Power BI**.
+The Healthcare Analytics Dashboard is an end-to-end data analytics project developed using MySQL and Power BI to analyze hospital operations, patient care, doctor performance, appointments, billing, and medication data using **MySQL** and **Power BI**.
 
 This project transforms raw healthcare data into meaningful business insights through SQL-based data analysis and interactive dashboards. It enables hospital administrators to monitor operational efficiency, financial performance, patient demographics, and clinical activities for data-driven decision-making.
 
-The project follows a complete analytics lifecycle, including data cleaning, exploratory data analysis (EDA), KPI development, SQL business analysis, Power BI data modeling, DAX measures, and dashboard visualization.
-
 ## Business Problem
-
 Hospitals generate large volumes of data through patient registrations, doctor consultations, appointments, billing transactions, and medication prescriptions. However, without centralized reporting, it becomes difficult to monitor operational performance, financial health, and patient care metrics.
 
 This project addresses these challenges by building an interactive Healthcare Analytics Dashboard that provides actionable insights across hospital operations, financial performance, and clinical activities.
