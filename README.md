@@ -266,6 +266,9 @@ Provides a high-level overview of hospital performance.
 - Patients by City
 - Revenue by Payment Mode
 
+![Hospital_Overview](Dashboard_Screanshots/Hospital_Overview.png)
+
+
 
 ## 👨‍⚕️ Patient & Doctor Analytics
 Provides patient demographics and doctor performance analysis.
