@@ -266,7 +266,7 @@ Provides a high-level overview of hospital performance.
 - Patients by City
 - Revenue by Payment Mode
 
-![Hospital_Overview](Dashboard_Screanshots/Hospital_Overview.png)
+![Hospital_Overview](Dashboard_Screenshots/Hospital_Overview.png)
 
 
 
