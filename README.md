@@ -295,7 +295,6 @@ Performed SQL analysis to answer key business questions.
 - Medication Status
 - Doctor-wise Prescriptions
 
----
 
 ##  Key Performance Indicators (KPIs)
 The dashboards monitor the following business KPIs:
@@ -468,7 +467,6 @@ WHERE follow_up_required = 1;
 - Helps hospitals monitor continuity of care.
 - Supports effective follow-up scheduling and patient management.
 
----
 
 ## KPI 8: Active Medications
 ### Business Question
