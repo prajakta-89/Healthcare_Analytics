@@ -338,6 +338,9 @@ FROM doctors;
 ```
 
 ### Output
+<p>
+  <img src="Healthcare_Analytics_Sql_Results/Total_Doctors.png" width="700"/>
+</p>
 
 ![Total_Patients](Healthcare_Analytics_Sql_Results/Total_Doctors.png)
 
