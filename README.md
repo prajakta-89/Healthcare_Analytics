@@ -116,7 +116,10 @@ Healthcare-Analytics/
 │   ├── Dashboard_2_Patient_Doctor_Analytics.png
 │   └── Dashboard_3_Financial_Medication_Analytics.png
 │
-├── Images/
+├── Healthcare_Project_Report/
+│   └── Healthcare_Analytics_Project_Report
+│
+├── Required_Images/
 │   ├── ER_Diagram.png
 │   └── Data_Model.png
 │
