@@ -266,6 +266,10 @@ Provides a high-level overview of hospital performance.
 - Patients by City
 - Revenue by Payment Mode
 
+<p>
+  <img src="Dashboard_Screenshots/Hospital_Overview" width="700"/>
+</p>
+
 ![Hospital_Overview](Dashboard_Screenshots/Hospital_Overview.png)
 
 
@@ -338,9 +342,6 @@ FROM doctors;
 ```
 
 ### Output
-<p>
-  <img src="Healthcare_Analytics_Sql_Results/Total_Doctors.png" width="700"/>
-</p>
 
 ![Total_Patients](Healthcare_Analytics_Sql_Results/Total_Doctors.png)
 
