@@ -267,11 +267,8 @@ Provides a high-level overview of hospital performance.
 - Revenue by Payment Mode
 
 <p>
-  <img src="Dashboard_Screenshots/Hospital_Overview" width="700"/>
+  <img src="Dashboard_Screenshots/Hospital_Overview.png" width="700"/>
 </p>
-
-![Hospital_Overview](Dashboard_Screenshots/Hospital_Overview.png)
-
 
 
 ## 👨‍⚕️ Patient & Doctor Analytics
